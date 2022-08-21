@@ -22,7 +22,6 @@ public class Product {
 
 	protected Product() {
 	}
-
 	
 	public Long getId() {
 		return id;

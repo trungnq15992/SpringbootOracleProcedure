@@ -8,7 +8,7 @@
 <body>
 	<div align="center">
 		<h1>Product List</h1>
-		<!-- <a href="/new">Create New Product</a> <br />
+		<a href="/new">Create New Product</a> <br />
 		<br />
 		<table border="1" cellpadding="10">
 			<thead>
@@ -29,12 +29,12 @@
 					<td th:text="${product.madein}">Made in</td>
 					<td th:text="${product.price}">Price</td>
 					<td>
-						<a th:href="@{'/edit/' + ${product.id}}">Edit</a>
-						&nbsp;&nbsp;&nbsp; <a th:href="@{'/delete/' + ${product.id}}">Delete</a>
-					</td>
+						<!-- <a th:href="@{'/edit/' + ${product.id}}">Edit</a> -->
+						&nbsp;&nbsp;&nbsp; <a th:href="@{'/delete/' + ${product.id}}">Delete</a> 
+					</td> 
 				</tr>
 			</tbody>
-		</table> -->
+		</table>
 	</div>
 </body>
 </html>
